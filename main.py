@@ -18,19 +18,19 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Space Dodge")
 CLOCK = pygame.time.Clock()
 
-# Load space_dodge/assets
-BACKGROUND_IMAGE = pygame.image.load("space_dodge/assets/bg.png").convert()
+# Load assets
+BACKGROUND_IMAGE = pygame.image.load("assets/bg.png").convert()
 BACKGROUND_IMAGE = pygame.transform.scale(BACKGROUND_IMAGE, (WIDTH, HEIGHT))
-START_BG_IMAGE = pygame.image.load("space_dodge/assets/start_bg.png").convert()
+START_BG_IMAGE = pygame.image.load("assets/start_bg.png").convert()
 START_BG_IMAGE = pygame.transform.scale(START_BG_IMAGE, (WIDTH, HEIGHT))
-PLAYER_IMAGE = pygame.image.load("space_dodge/assets/player.png").convert_alpha()
-ASTEROID_IMAGE = pygame.image.load("space_dodge/assets/asteroid.png").convert_alpha()
+PLAYER_IMAGE = pygame.image.load("assets/player.png").convert_alpha()
+ASTEROID_IMAGE = pygame.image.load("assets/asteroid.png").convert_alpha()
 
 # Load sounds
-pygame.mixer.music.load("space_dodge/assets/start_music.mp3")
-GAME_MUSIC = "space_dodge/assets/game_music.mp3"
-CRASH_SOUND = pygame.mixer.Sound("space_dodge/assets/crash.mp3")
-EASTER_EGG_SOUND = pygame.mixer.Sound("space_dodge/assets/easter_egg.mp3")  # Easter egg sound
+pygame.mixer.music.load("assets/start_music.mp3")
+GAME_MUSIC = "assets/game_music.mp3"
+CRASH_SOUND = pygame.mixer.Sound("assets/crash.mp3")
+EASTER_EGG_SOUND = pygame.mixer.Sound("assets/easter_egg.mp3")  # Easter egg sound
 
 # Fonts
 TITLE_FONT = pygame.font.SysFont("Arial", 72)

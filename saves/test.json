@@ -1,0 +1,1 @@
+{"player": {"x": 25, "y": 775, "lives": 2, "score": 53}, "obstacles": [{"x": 840, "y": 364, "speed": 3}, {"x": 131, "y": 496, "speed": 7}, {"x": 421, "y": 58, "speed": 6}], "obstacle_timer": 18}
